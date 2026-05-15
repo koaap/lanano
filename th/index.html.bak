@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="language" content="Thai">
+  <meta name="robots" content="index, follow">
+
+  <meta property="og:locale" content="th_TH">
+  <meta property="og:url" content="https://lanano.co.th/">
+  <meta property="og:image" content="https://lanano.co.th/main.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Home page">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:type" content="website">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="https://lanano.co.th/">
+  <meta name="twitter:image" content="https://lanano.co.th/main.png">
+
+  <link rel="alternate" href="https://lanano.co.th/" hreflang="en-EN">
+  <link rel="alternate" href="https://lanano.co.th/th" hreflang="th-TH">
+  <link rel="alternate" href="https://lanano.co.th/zh" hreflang="zh-ZH">
+
+  <meta name="twitter:title" content="ลานาโน — ผลิตภัณฑ์นมสดใหม่ทุกวัน">
+  <meta property="og:title" content="ลานาโน — ผลิตภัณฑ์นมสดใหม่ทุกวัน">
+  <meta property="og:site_name"
+    content="ผลิตภัณฑ์นมหมักและขนมหวานควาร์กสดใหม่ ผลิตในเชียงใหม่ นมสด จุลินทรีย์ที่มีชีวิต สูตรอาหารสะอาด รสชาติอบอุ่น เป็นกันเอง">
+  <meta name="twitter:description"
+    content="ผลิตภัณฑ์นมหมักและขนมหวานควาร์กสดใหม่ ผลิตในเชียงใหม่ นมสด จุลินทรีย์ที่มีชีวิต สูตรอาหารสะอาด รสชาติอบอุ่น เป็นกันเอง">
+  <meta name="description"
+    content="ผลิตภัณฑ์นมหมักและขนมหวานควาร์กสดใหม่ ผลิตในเชียงใหม่ นมสด จุลินทรีย์ที่มีชีวิต สูตรอาหารสะอาด รสชาติอบอุ่น เป็นกันเอง">
+  <title>ลานาโน — ผลิตภัณฑ์นมสดใหม่ทุกวัน</title>
+
+  <link rel="canonical" href="https://lanano.co.th/">
+  <link rel="icon" href="/favicon.png" type="image/png">
+  <link rel="preload" href="/fonts/librefranklin-bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/librefranklin-medium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/librefranklin-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/resources/aos/aos.css">
+  <link rel="stylesheet" href="/css/main-min.css">
+  <script defer src="/resources/aos/aos.js"></script>
+  <script defer src="/js/main.js"></script>
+</head>
+
+<body>
+  <div class="page init-aos">
+    <!-- start header -->
+    <header class="header">
+      <div class="header__top bg-dark">
+        <div class="header__container container">
+          <div class="lang">
+            <button class="lang__active hover-color color-white fw-500 tx-12-10" aria-label="แบบไทย">
+              <span class="lang__active-icon" style="background-image: url('/img/icons/lang-white.webp');"></span>
+              แบบไทย
+              <span class="lang__active-arrow" style="background-image: url('/img/icons/arrow.webp');"></span>
+            </button>
+            <ul class="lang__list" aria-label="List langs">
+              <li>
+                <a class="tx-12-10 hover-color fw-500" href="/" aria-label="Open English version site">
+                  English
+                </a>
+              </li>
+              <li>
+                <a class="tx-12-10 hover-color fw-500" href="/zh" aria-label="Open Chinese version site">
+                  ภาษาจีน
+                </a>
+              </li>
+            </ul>
+          </div>
+          <ul class="issocial" aria-label="Social links">
+            <li>
+              <a class="icon hover-opacity" target="_blank" href="#!" aria-label="Open facebook">
+                <img src="/img/social-icons/facebook-white.webp" width="24" height="24" title="Open facebook"
+                  alt="Facebook">
+              </a>
+            </li>
+            <li>
+              <a class="icon hover-opacity" target="_blank" href="#!" aria-label="Open ume">
+                <img src="/img/social-icons/ume-white.webp" width="24" height="24" title="Open ume" alt="Ume">
+              </a>
+            </li>
+            <li>
+              <a class="icon hover-opacity" target="_blank" href="https://t.me/lanano_th" aria-label="Open telegram">
+                <img src="/img/social-icons/telegram-white.webp" width="24" height="24" title="Open telegram"
+                  alt="Telegram">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="header__bottom bg-white">
+        <div class="header__container container">
+          <a class="hover-color logo-tx" href="/th" aria-label="Go to main page">
+            LANANO
+          </a>
+          <button class="burger" aria-label="Burger menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div class="header__menu">
+            <nav class="nav" aria-label="Navigation site">
+              <ul class="nav__list" aria-label="List navigation site">
+                <li class="nav__item">
+                  <a class="nav__link tx-main fw-700 uppercase" href="/th" aria-label="Home">
+                    หน้าหลัก
+                  </a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link tx-main uppercase" href="#products" aria-label="Products">
+                    สินค้า
+                  </a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link tx-main uppercase" href="#contacts" aria-label="Contacts">
+                    ติดต่อเรา
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <button class="header__exit-menu" aria-label="Close burger menu"></button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end header -->
+    <main class="main mb-section">
+      <!-- start hero -->
+      <section class="hero mb-44-40">
+        <div class="container">
+          <div class="hero__descr mb-44-15">
+            <div class="hero__icon" data-aos="fade-up">
+              <img src="/img/caplya.webp" width="128" height="24" title="Caplya decorative icon"
+                alt="Caplya decorative icon">
+            </div>
+            <h1 class="tx-64-24 fw-700 text-center mb-24-15" data-aos="fade-up">
+              รสชาติธรรมชาติ <br>
+              ผลิตด้วยความใส่ใจ
+            </h1>
+            <p class="text-center tx-main mb-44-15" data-aos="fade-up">
+              ผลิตภัณฑ์นมสดใหม่จากท้องถิ่น เชียงใหม่ <br>
+              สูตรดั้งเดิมผสานมาตรฐานคุณภาพสมัยใหม่
+            </p>
+            <ul class="hero__links mb-24-15" aria-label="links" data-aos="fade-up">
+              <li>
+                <a class="but uppercase" href="#products" aria-label="ดูสินค้า">
+                  ดูสินค้า
+                </a>
+              </li>
+              <li>
+                <a class="but uppercase" href="#contacts" aria-label="พบกับเราได้ที่เชียงใหม่">
+                  พบกับเราได้ที่เชียงใหม่
+                </a>
+              </li>
+            </ul>
+          </div>
+          <ul class="hero__products mb-44-15" aria-label="Products" data-aos="fade-up">
+            <li>
+              <div class="hero__products-image mb-10">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="/img/hero-products-1.webp" type="image/webp">
+                  <img src="#" title="โดนัทไส้โยเกิร์ต" alt="โดนัทไส้โยเกิร์ต">
+                </picture>
+              </div>
+              <strong class="tx-main text-center uppercase">
+                โดนัทไส้โยเกิร์ต
+              </strong>
+            </li>
+            <li>
+              <div class="hero__products-image mb-10">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="/img/hero-products-2.webp" type="image/webp">
+                  <img src="#" title="หม้อตุ๋น" alt="หม้อตุ๋น">
+                </picture>
+              </div>
+              <strong class="tx-main text-center uppercase">
+                หม้อตุ๋น
+              </strong>
+            </li>
+            <li>
+              <div class="hero__products-image mb-10">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="/img/hero-products-3.webp" type="image/webp">
+                  <img src="#" title="อาหารอบหม้อดิน" alt="อาหารอบหม้อดิน">
+                </picture>
+              </div>
+              <strong class="tx-main text-center uppercase">
+                อาหารอบหม้อดิน
+              </strong>
+            </li>
+            <li>
+              <div class="hero__products-image mb-10">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="/img/hero-products-4.webp" type="image/webp">
+                  <img src="#" title="ครีมเปรี้ยว" alt="ครีมเปรี้ยว">
+                </picture>
+              </div>
+              <strong class="tx-main text-center uppercase">
+                ครีมเปรี้ยว
+              </strong>
+            </li>
+            <li>
+              <div class="hero__products-image mb-10">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="/img/hero-products-5.webp" type="image/webp">
+                  <img src="#" title="แพนเค้กชีสคอทเทจ" alt="แพนเค้กชีสคอทเทจ">
+                </picture>
+              </div>
+              <strong class="tx-main text-center uppercase">
+                แพนเค้กชีสคอทเทจ
+              </strong>
+            </li>
+            <li>
+              <div class="hero__products-image mb-10">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="/img/hero-products-6.webp" type="image/webp">
+                  <img src="#" title="เคฟีร์" alt="เคฟีร์">
+                </picture>
+              </div>
+              <strong class="tx-main text-center uppercase">
+                เคฟีร์
+              </strong>
+            </li>
+          </ul>
+          <div class="hero__image" data-aos="fade-up">
+            <picture>
+              <source media="(min-width: 601px)" srcset="/img/hero.webp" type="image/webp">
+              <source media="(max-width: 600px)" srcset="/img/hero-mob.webp" type="image/webp">
+              <img src="#!" width="336" height="336" title="Natural Taste Crafted with Care" alt="Natural Taste">
+            </picture>
+          </div>
+        </div>
+      </section>
+      <!-- end hero -->
+
+      <!-- start products -->
+      <section class="products mb-section">
+        <div class="products__archer" id="products"></div>
+        <div class="container">
+          <div class="products__descr mb-66-40">
+            <h2 class="text-center mb-24-15 tx-64-24 fw-700" data-aos="fade-up">
+              ที่ทำจากนมเปรี้ยว <br> <span class="underline">อาหารเช้า</span>
+            </h2>
+            <div class="products__texts" data-aos="fade-up">
+              <p class="tx-main text-center mb-10">
+                เนื้อสัมผัสละเอียดอ่อน รสชาติอ่อนๆ และส่วนผสมจากธรรมชาติ
+                ทำให้เป็นตัวเลือกที่เหมาะสำหรับอาหารเช้าหรืออาหารว่าง
+              </p>
+            </div>
+          </div>
+          <ul class="products__list" aria-label="Products">
+            <li class="products__item" data-aos="fade-up">
+              <div class="products__left">
+                <div class="products__image">
+                  <picture>
+                    <source media="(min-width: 601px)" srcset="/img/curd-based-1.webp" type="image/webp">
+                    <source media="(max-width: 600px)" srcset="/img/curd-based-1-mob.webp" type="image/webp">
+                    <img src="#!" loading="lazy" width="120" height="120" title="อาหารอบหม้อดิน" alt="อาหารอบหม้อดิน">
+                  </picture>
+                </div>
+              </div>
+              <div class="products__right">
+                <h3 class="products__name tx-16-14 fw-700 uppercase">
+                  อาหารอบหม้อดิน
+                </h3>
+                <p class="tx-main fw-500">
+                  ควาร์กกรอบนุ่ม เนื้อสัมผัสคล้ายชีสเค้ก อาหารเช้าหรือของหวานที่อิ่มท้อง
+                  คุณสามารถเติมแต่งท็อปปิ้งได้ตามใจชอบ ไม่ว่าจะเป็นเบอร์รี่ แยม นมข้นหวาน หรือครีมเปรี้ยว
+                </p>
+              </div>
+            </li>
+            <li class="products__item" data-aos="fade-up">
+              <div class="products__left">
+                <div class="products__image">
+                  <picture>
+                    <source media="(min-width: 601px)" srcset="/img/curd-based-7.webp" type="image/webp">
+                    <source media="(max-width: 600px)" srcset="/img/curd-based-7-mob.webp" type="image/webp">
+                    <img src="#!" loading="lazy" width="120" height="120" title="แพนเค้กชีสคอทเทจ"
+                      alt="แพนเค้กชีสคอทเทจ">
+                  </picture>
+                </div>
+              </div>
+              <div class="products__right">
+                <h3 class="products__name tx-16-14 fw-700 uppercase">
+                  แพนเค้กชีสคอทเทจ
+                </h3>
+                <p class="tx-main fw-500">
+                  แพนเค้กควาร์กสีทอง: กรอบนอก นุ่มใน และเนียนละเอียด รสชาติอาหารที่ให้ความรู้สึกอบอุ่นใจ —
+                  เหมาะอย่างยิ่ง
+                  ทานคู่กับชา กาแฟ หรือเป็นอาหารเช้าอุ่นๆ
+                </p>
+              </div>
+            </li>
+            <li class="products__item" data-aos="fade-up">
+              <div class="products__left">
+                <div class="products__image">
+                  <picture>
+                    <source media="(min-width: 601px)" srcset="/img/curd-based-2.webp" type="image/webp">
+                    <source media="(max-width: 600px)" srcset="/img/curd-based-2-mob.webp" type="image/webp">
+                    <img src="#!" loading="lazy" width="120" height="120" title="โดนัทไส้โยเกิร์ต"
+                      alt="โดนัทไส้โยเกิร์ต">
+                  </picture>
+                </div>
+              </div>
+              <div class="products__right">
+                <h3 class="products__name tx-16-14 fw-700 uppercase">
+                  โดนัทไส้โยเกิร์ต
+                </h3>
+                <p class="tx-main fw-500">
+                  Quark doughnuts with a crispy golden shell and airy center. Lightly sweet and aromatic — delicious
+                  warm or chilled for an easy snack.
+                </p>
+              </div>
+            </li>
+            <li class="products__item" data-aos="fade-up">
+              <div class="products__left">
+                <div class="products__image">
+                  <picture>
+                    <source media="(min-width: 601px)" srcset="/img/curd-based-8.webp" type="image/webp">
+                    <source media="(max-width: 600px)" srcset="/img/curd-based-8-mob.webp" type="image/webp">
+                    <img src="#!" loading="lazy" width="120" height="120" title="หม้อตุ๋น" alt="หม้อตุ๋น">
+                  </picture>
+                </div>
+              </div>
+              <div class="products__right">
+                <h3 class="products__name tx-16-14 fw-700 uppercase">
+                  หม้อตุ๋น
+                </h3>
+                <p class="tx-main fw-500">
+                  พายควาร์กใส่เบอร์รี่และข้าวโอ๊ต — อร่อย อิ่มท้อง และมีคุณค่าทางโภชนาการครบถ้วน
+                  เหมาะสำหรับมื้อเช้าของครอบครัว
+                  และอร่อยทั้งแบบร้อนและเย็น
+                </p>
+              </div>
+            </li>
+            <li class="products__item" data-aos="fade-up">
+              <div class="products__left">
+                <div class="products__image">
+                  <picture>
+                    <source media="(min-width: 601px)" srcset="/img/curd-based-3.webp" type="image/webp">
+                    <source media="(max-width: 600px)" srcset="/img/curd-based-3-mob.webp" type="image/webp">
+                    <img src="#!" loading="lazy" width="120" height="120" title="เคเฟอร์" alt="เคเฟอร์">
+                  </picture>
+                </div>
+              </div>
+              <div class="products__right">
+                <h3 class="products__name tx-16-14 fw-700 uppercase">
+                  เคเฟอร์
+                </h3>
+                <p class="tx-main fw-500">
+                  เคเฟอร์เนื้อข้น รสชาติกลมกล่อม เปรี้ยวเล็กน้อย เป็นแหล่งโปรไบโอติก โปรตีน และแคลเซียมจากธรรมชาติ —
+                  เหมาะสำหรับการรักษาสมดุลในแต่ละวัน เพลิดเพลินได้ทั้งแบบดื่ม ทานคู่กับกราโนลา
+                  หรือใช้เป็นส่วนผสมในการทำขนม
+                </p>
+              </div>
+            </li>
+            <li class="products__item" data-aos="fade-up">
+              <div class="products__left">
+                <div class="products__image">
+                  <picture>
+                    <source media="(min-width: 601px)" srcset="/img/curd-based-9.webp" type="image/webp">
+                    <source media="(max-width: 600px)" srcset="/img/curd-based-9-mob.webp" type="image/webp">
+                    <img src="#!" loading="lazy" width="120" height="120" title="แท่งโยเกิร์ตเคลือบน้ำตาล (syrki)"
+                      alt="แท่งโยเกิร์ตเคลือบน้ำตาล (syrki)">
+                  </picture>
+                </div>
+              </div>
+              <div class="products__right">
+                <h3 class="products__name tx-16-14 fw-700 uppercase">
+                  แท่งโยเกิร์ตเคลือบน้ำตาล (syrki)
+                </h3>
+                <p class="tx-main fw-500">
+                  ควาร์กวานิลลาแท่งเล็กเคลือบช็อกโกแลต อร่อยลงตัวด้วยรสชาติหวานละมุน —
+                  ไม่มีส่วนผสมของไขมันนมหรือสารปรุงแต่งรส เหมาะสำหรับทานที่โรงเรียน ที่ทำงาน หรือช่วงพักดื่มกาแฟ
+                </p>
+              </div>
+            </li>
+            <li class="products__item" data-aos="fade-up">
+              <div class="products__left">
+                <div class="products__image">
+                  <picture>
+                    <source media="(min-width: 601px)" srcset="/img/curd-based-4.webp" type="image/webp">
+                    <source media="(max-width: 600px)" srcset="/img/curd-based-4-mob.webp" type="image/webp">
+                    <img src="#!" loading="lazy" width="120" height="120" title="ครีมเปรี้ยว" alt="ครีมเปรี้ยว">
+                  </picture>
+                </div>
+              </div>
+              <div class="products__right">
+                <h3 class="products__name tx-16-14 fw-700 uppercase">
+                  ครีมเปรี้ยว
+                </h3>
+                <p class="tx-main fw-500">
+                  ครีมเปรี้ยวจากฟาร์มทำจากนมสดดิบจากฟาร์ม เหมาะสำหรับราดบนซิร์นิกิและซาเปกันกา ใส่ในซุปและซอส
+                  หรือเสิร์ฟพร้อมผลไม้และน้ำผึ้ง เป็นผลิตภัณฑ์แบบดั้งเดิมที่เรียบง่าย มีรสชาติของนมแท้ๆ
+                </p>
+              </div>
+            </li>
+            <li class="products__item" data-aos="fade-up">
+              <div class="products__left">
+                <div class="products__image">
+                  <picture>
+                    <source media="(min-width: 601px)" srcset="/img/curd-based-10.webp" type="image/webp">
+                    <source media="(max-width: 600px)" srcset="/img/curd-based-10-mob.webp" type="image/webp">
+                    <img src="#!" loading="lazy" width="120" height="120" title="ซีร์กีต้นตำรับ" alt="ซีร์กีต้นตำรับ">
+                  </picture>
+                </div>
+              </div>
+              <div class="products__right">
+                <h3 class="products__name tx-16-14 fw-700 uppercase">
+                  ซีร์กีต้นตำรับ
+                </h3>
+                <p class="tx-main fw-500">
+                  ควาร์กวานิลลาเคลือบช็อกโกแลต ความอร่อยของควาร์กแท้ๆ รสหวานละมุน —
+                  ไม่มีส่วนผสมของไขมันนมหรือสารปรุงแต่งรส เหมาะสำหรับทานที่โรงเรียน ที่ทำงาน หรือช่วงพักดื่มกาแฟ
+                </p>
+              </div>
+            </li>
+            <li class="products__item" data-aos="fade-up">
+              <div class="products__left">
+                <div class="products__image">
+                  <picture>
+                    <source media="(min-width: 601px)" srcset="/img/curd-based-5.webp" type="image/webp">
+                    <source media="(max-width: 600px)" srcset="/img/curd-based-5-mob.webp" type="image/webp">
+                    <img src="#!" loading="lazy" width="120" height="120" title="ช่างทำผม" alt="ช่างทำผม">
+                  </picture>
+                </div>
+              </div>
+              <div class="products__right">
+                <h3 class="products__name tx-16-14 fw-700 uppercase">
+                  ช่างทำผม
+                </h3>
+                <p class="tx-main fw-500">
+                  เมนูโปรดในวัยเด็ก: พายแป้งกรอบร่วนสอดไส้ควาร์กฉ่ำๆ เหมาะสำหรับเป็นอาหารเช้าหรือของว่างทานเล่น —
+                  นุ่มนวล อิ่มอร่อย และอบอุ่น
+                </p>
+              </div>
+            </li>
+            <li class="products__item" data-aos="fade-up">
+              <div class="products__left">
+                <div class="products__image">
+                  <picture>
+                    <source media="(min-width: 601px)" srcset="/img/curd-based-11-mob.webp" type="image/webp">
+                    <source media="(max-width: 600px)" srcset="/img/curd-based-11-mob.webp" type="image/webp">
+                    <img src="#!" loading="lazy" width="120" height="120" title="คัพเค้ก" alt="คัพเค้ก">
+                  </picture>
+                </div>
+              </div>
+              <div class="products__right">
+                <h3 class="products__name tx-16-14 fw-700 uppercase">
+                  คัพเค้ก
+                </h3>
+                <p class="tx-main fw-500">
+                  มัฟฟินควาร์กเนื้อนุ่มฟู — นุ่ม หวานเล็กน้อย และเหมาะสำหรับเป็นอาหารเช้าของครอบครัว ทานคู่กับกาแฟ ชา
+                  หรือนมก็อร่อย และคงความนุ่มได้นานกว่าเพราะมีส่วนผสมของควาร์ก
+                </p>
+              </div>
+            </li>
+            <li class="products__item" data-aos="fade-up">
+              <div class="products__left">
+                <div class="products__image">
+                  <picture>
+                    <source media="(min-width: 601px)" srcset="/img/curd-based-6.webp" type="image/webp">
+                    <source media="(max-width: 600px)" srcset="/img/curd-based-6-mob.webp" type="image/webp">
+                    <img src="#!" loading="lazy" width="120" height="120" title="ทีรามิสุ" alt="ทีรามิสุ">
+                  </picture>
+                </div>
+              </div>
+              <div class="products__right">
+                <h3 class="products__name tx-16-14 fw-700 uppercase">
+                  ทีรามิสุ
+                </h3>
+                <p class="tx-main fw-500">
+                  ของหวานควาร์กผสมชีสซาวอยาร์ดี โกโก้ และกลิ่นซิตรัสสดใส เมล็ดเจียเพิ่มคุณค่าทางโภชนาการระดับซูเปอร์ฟู้ด
+                  —
+                  เพิ่มเนื้อสัมผัส คุณค่าทางโภชนาการ และช่วยให้อิ่มนานขึ้น
+                </p>
+              </div>
+            </li>
+            <li class="products__item" data-aos="fade-up">
+              <div class="products__left">
+                <div class="products__image">
+                  <picture>
+                    <source media="(min-width: 601px)" srcset="/img/curd-based-12.webp" type="image/webp">
+                    <source media="(max-width: 600px)" srcset="/img/curd-based-12-mob.webp" type="image/webp">
+                    <img src="#!" loading="lazy" width="120" height="120" title="คอทเทจชีส" alt="คอทเทจชีส">
+                  </picture>
+                </div>
+              </div>
+              <div class="products__right">
+                <h3 class="products__name tx-16-14 fw-700 uppercase">
+                  คอทเทจชีส
+                </h3>
+                <p class="tx-main fw-500">
+                  ควาร์กคลาสสิก รสชาติกลมกล่อม หอมนม และมีรสเปรี้ยวเล็กน้อย ไม่มีสารกันบูด มีเพียงนมและจุลินทรีย์
+                  อร่อยเมื่อรับประทานเปล่าๆ ผสมกับน้ำผึ้ง ผลไม้ สมุนไพร หรือใช้ในการอบขนม
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- end products -->
+
+      <!-- start contacts -->
+      <section class="contacts mb-section">
+        <div class="contacts__archer" id="contacts"></div>
+        <div class="container mb-44-40">
+          <div class="contacts__descr mb-66-40">
+            <h2 class="text-center mb-24-15 tx-64-24 fw-700" data-aos="fade-up">
+              พบกับเราได้ที่เชียงใหม่
+            </h2>
+            <div class="contacts__texts">
+              <p class="tx-main text-center mb-10" data-aos="fade-up">
+                ผลิตภัณฑ์นมท้องถิ่น ผลิตสดใหม่ทุกวัน
+              </p>
+            </div>
+          </div>
+          <div class="contacts__content mb-44-15" data-aos="fade-up">
+            <div class="contacts__left">
+              <h3 class="mb-15 tx-16-14 fw-700 uppercase">
+                การติดต่อ
+              </h3>
+              <address class="address">
+                <div class="address__item mb-10">
+                  <div class="icon" style="background-image: url('/img/icons/geo-black.webp');"></div>
+                  <p class="tx-main fw-500">
+                    Chiang Mai, Thailand, <br>
+                    Hang Dong, Ban Tawai....
+                  </p>
+                </div>
+                <div class="address__item mb-10">
+                  <div class="icon" style="background-image: url('/img/icons/phone-black.webp');"></div>
+                  <a class="tx-main fw-500 hover-color word-break" href="tel:+66XXXXXXXX">
+                    +66 X XXX XXXX
+                  </a>
+                </div>
+                <div class="address__item mb-10">
+                  <div class="icon" style="background-image: url('/img/icons/mail-black.webp');"></div>
+                  <a class="tx-main fw-500 hover-color word-break" href="mailto:hello@lanano.co.th">
+                    hello@lanano.co.th
+                  </a>
+                </div>
+              </address>
+            </div>
+            <div class="contacts__logo logo">
+              <picture>
+                <source media="(min-width: 601px)" srcset="/img/logo.webp" type="image/webp">
+                <source media="(max-width: 600px)" srcset="/img/logo-mob.webp" type="image/webp">
+                <img src="#!" loading="lazy" width="120" height="120" title="Lanano" alt="Lanano">
+              </picture>
+            </div>
+            <div class="contacts__right">
+              <h3 class="mb-15 tx-16-14 fw-700 uppercase">
+                เวลาเปิดทำการ
+              </h3>
+              <address>
+                <div class="mb-44-15">
+                  <p class="tx-main fw-500 mb-10">
+                    วันจันทร์-วันเสาร์: <span class="fw-700">8:00-17:00</span>
+                  </p>
+                  <p class="tx-main fw-500 mb-10">
+                    วันอาทิตย์: ปิดทำการ
+                  </p>
+                </div>
+                <ul class="issocial" aria-label="Social links">
+                  <li>
+                    <a class="icon hover-opacity" target="_blank" href="#!" aria-label="Open facebook">
+                      <img src="/img/social-icons/facebook-black.webp" width="24" height="24" title="Open facebook"
+                        alt="Facebook">
+                    </a>
+                  </li>
+                  <li>
+                    <a class="icon hover-opacity" target="_blank" href="#!" aria-label="Open ume">
+                      <img src="/img/social-icons/ume-black.webp" width="24" height="24" title="Open ume" alt="Ume">
+                    </a>
+                  </li>
+                  <li>
+                    <a class="icon hover-opacity" target="_blank" href="https://t.me/lanano_th"
+                      aria-label="Open telegram">
+                      <img src="/img/social-icons/telegram-black.webp" width="24" height="24" title="Open telegram"
+                        alt="Telegram">
+                    </a>
+                  </li>
+                </ul>
+              </address>
+            </div>
+          </div>
+        </div>
+        <div class="wrapper-map" data-aos="fade-up">
+          <a class="wrapper-map__map hover-opacity" href="https://maps.app.goo.gl/7nuv294uDSa4K4s3A" target="_blank"
+            aria-label="Go to check map">
+            <picture>
+              <source media="(min-width: 601px)" srcset="/img/map.webp" type="image/webp">
+              <source media="(max-width: 600px)" srcset="/img/map-mob.webp" type="image/webp">
+              <img src="#!" loading="lazy" width="336" height="336" title="" alt="">
+            </picture>
+          </a>
+        </div>
+      </section>
+      <!-- end contacts -->
+    </main>
+    <!-- start footer -->
+    <footer class="footer bg-dark">
+      <div class="container">
+        <div class="footer__top">
+          <div class="footer__left">
+            <div class="logo logo_92 mb-24-15">
+              <picture>
+                <source media="(min-width: 601px)" srcset="/img/logo-white.webp" type="image/webp">
+                <source media="(max-width: 600px)" srcset="/img/logo-white-mob.webp" type="image/webp">
+                <img src="#!" loading="lazy" width="120" height="120" title="Lanano" alt="Lanano">
+              </picture>
+            </div>
+            <p class="tx-main color-gray mb-24-15">
+              ผลิตภัณฑ์นมคุณภาพเยี่ยม ผลิตด้วยความใส่ใจในโรงงานของเราเอง สูตรดั้งเดิม ส่วนผสมจากธรรมชาติ
+              รสชาติแท้ๆ
+            </p>
+            <ul class="issocial" aria-label="Social links">
+              <li>
+                <a class="icon hover-opacity" target="_blank" href="#!" aria-label="Open facebook">
+                  <img src="/img/social-icons/facebook-white.webp" width="24" height="24" title="Open facebook"
+                    alt="Facebook">
+                </a>
+              </li>
+              <li>
+                <a class="icon hover-opacity" target="_blank" href="#!" aria-label="Open ume">
+                  <img src="/img/social-icons/ume-white.webp" width="24" height="24" title="Open ume" alt="Ume">
+                </a>
+              </li>
+              <li>
+                <a class="icon hover-opacity" target="_blank" href="https://t.me/lanano_th" aria-label="Open telegram">
+                  <img src="/img/social-icons/telegram-white.webp" width="24" height="24" title="Open telegram"
+                    alt="Telegram">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__wrapper-nav">
+            <strong class="footer__title uppercase tx-16-14 fw-700 color-white mb-24-15">
+              Products
+            </strong>
+            <nav class="nav" aria-label="Navigation site">
+              <ul class="nav__list" aria-label="Navigation site list">
+                <li class="nav__item">
+                  <a class="nav__link tx-main fw-500 color-gray hover-color" href="/th" aria-label="Home">
+                    หน้าหลัก
+                  </a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link tx-main fw-500 color-gray hover-color" href="#products" aria-label="Products">
+                    สินค้า
+                  </a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link tx-main fw-500 color-gray hover-color" href="#contacts" aria-label="Contacts">
+                    ติดต่อเรา
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__wrapper-contacts">
+            <strong class="footer__title uppercase tx-16-14 fw-700 color-white mb-24-15">
+              ติดต่อ
+            </strong>
+            <address class="address">
+              <div class="address__item mb-10">
+                <div class="icon" style="background-image: url('/img/icons/geo-white.webp');"></div>
+                <p class="tx-main color-gray fw-500">
+                  Chiang Mai, Thailand
+                </p>
+              </div>
+              <div class="address__item mb-10">
+                <div class="icon" style="background-image: url('/img/icons/phone-white.webp');"></div>
+                <a class="tx-main fw-500 color-gray hover-color word-break" href="tel:+66XXXXXXXX">
+                  +66 X XXX XXXX
+                </a>
+              </div>
+              <div class="address__item mb-10">
+                <div class="icon" style="background-image: url('/img/icons/mail-white.webp');"></div>
+                <a class="tx-main fw-500 color-gray hover-color word-break" href="mailto:hello@lanano.co.th">
+                  hello@lanano.co.th
+                </a>
+              </div>
+            </address>
+          </div>
+          <div class="lang">
+            <button class="lang__active hover-color color-gray fw-500 tx-12-10" aria-label="Thai">
+              <span class="lang__active-icon lang__active-icon_24"
+                style="background-image: url('/img/icons/lang-gray.webp');"></span>
+              แบบไทย
+            </button>
+            <ul class="lang__list" aria-label="List langs">
+              <li>
+                <a class="tx-12-10 hover-color fw-500" href="/" aria-label="Open English version site">
+                  ภาษาอังกฤษ
+                </a>
+              </li>
+              <li>
+                <a class="tx-12-10 hover-color fw-500" href="/zh" aria-label="Open Chinese version site">
+                  ภาษาจีน
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p class="tx-main color-gray">
+            © 2026 LANANO สงวนลิขสิทธิ์ทุกประการ
+          </p>
+          <nav class="nav" aria-label="Navigation site">
+            <ul class="nav__list nav__list_footer" aria-label="Navigation site list">
+              <li class="nav__item">
+                <a class="nav__link tx-main color-gray hover-color" href="#!" aria-label="นโยบายความเป็นส่วนตัว">
+                  นโยบายความเป็นส่วนตัว
+                </a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link tx-main color-gray hover-color" href="#!" aria-label="ข้อกำหนด">
+                  ข้อกำหนด
+                </a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link tx-main color-gray hover-color" href="#!" aria-label="คุณภาพ">
+                  คุณภาพ
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+  </div>
+</body>
+
+</html>

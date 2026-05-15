@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="language" content="Chinese">
+  <meta name="robots" content="index, follow">
+
+  <meta property="og:locale" content="zh_ZH">
+  <meta property="og:url" content="https://lanano.co.th/">
+  <meta property="og:image" content="https://lanano.co.th/main.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Home page">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:type" content="website">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="https://lanano.co.th/">
+  <meta name="twitter:image" content="https://lanano.co.th/main.png">
+
+  <link rel="alternate" href="https://lanano.co.th/" hreflang="en-EN">
+  <link rel="alternate" href="https://lanano.co.th/th" hreflang="th-TH">
+  <link rel="alternate" href="https://lanano.co.th/zh" hreflang="zh-ZH">
+
+  <meta name="twitter:title" content="LANANO－每日新鮮製作的乳製品">
+  <meta property="og:title" content="LANANO－每日新鮮製作的乳製品">
+  <meta property="og:site_name" content="清邁手工製作的新鮮發酵乳製品和夸克甜點。採用生牛奶和活性菌種－純淨配方，帶來溫暖、純淨的口感。">
+  <meta name="twitter:description" content="清邁手工製作的新鮮發酵乳製品和夸克甜點。採用生牛奶和活性菌種－純淨配方，帶來溫暖、純淨的口感。">
+  <meta name="description" content="清邁手工製作的新鮮發酵乳製品和夸克甜點。採用生牛奶和活性菌種－純淨配方，帶來溫暖、純淨的口感。">
+  <title>LANANO－每日新鮮製作的乳製品</title>
+
+  <link rel="canonical" href="https://lanano.co.th/">
+  <link rel="icon" href="/favicon.png" type="image/png">
+  <link rel="preload" href="/fonts/librefranklin-bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/librefranklin-medium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/librefranklin-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/resources/aos/aos.css">
+  <link rel="stylesheet" href="/css/main-min.css">
+  <script defer src="/resources/aos/aos.js"></script>
+  <script defer src="/js/main.js"></script>
+</head>
+
+<body>
+  <div class="page init-aos">
+    <!-- start header -->
+    <header class="header">
+      <div class="header__top bg-dark">
+        <div class="header__container container">
+          <div class="lang">
+            <button class="lang__active hover-color color-white fw-500 tx-12-10" aria-label="EN">
+              <span class="lang__active-icon" style="background-image: url('/img/icons/lang-white.webp');"></span>
+              中國人
+              <span class="lang__active-arrow" style="background-image: url('/img/icons/arrow.webp');"></span>
+            </button>
+            <ul class="lang__list" aria-label="List langs">
+              <li>
+                <a class="tx-12-10 hover-color fw-500" href="/th" aria-label="Open Thai version site">
+                  泰語
+                </a>
+              </li>
+              <li>
+                <a class="tx-12-10 hover-color fw-500" href="/" aria-label="Open Chinese version site">
+                  英語
+                </a>
+              </li>
+            </ul>
+          </div>
+          <ul class="issocial" aria-label="Social links">
+            <li>
+              <a class="icon hover-opacity" target="_blank" href="#!" aria-label="Open facebook">
+                <img src="/img/social-icons/facebook-white.webp" width="24" height="24" title="Open facebook"
+                  alt="Facebook">
+              </a>
+            </li>
+            <li>
+              <a class="icon hover-opacity" target="_blank" href="#!" aria-label="Open ume">
+                <img src="/img/social-icons/ume-white.webp" width="24" height="24" title="Open ume" alt="Ume">
+              </a>
+            </li>
+            <li>
+              <a class="icon hover-opacity" target="_blank" href="https://t.me/lanano_th" aria-label="Open telegram">
+                <img src="/img/social-icons/telegram-white.webp" width="24" height="24" title="Open telegram"
+                  alt="Telegram">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="header__bottom bg-white">
+        <div class="header__container container">
+          <a class="hover-color logo-tx" href="/zh" aria-label="Go to main page">
+            LANANO
+          </a>
+          <button class="burger" aria-label="Burger menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div class="header__menu">
+            <nav class="nav" aria-label="Navigation site">
+              <ul class="nav__list" aria-label="List navigation site">
+                <li class="nav__item">
+                  <a class="nav__link tx-main fw-700 uppercase" href="/zh" aria-label="首頁">
+                    首頁
+                  </a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link tx-main uppercase" href="#products" aria-label="產品">
+                    產品
+                  </a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link tx-main uppercase" href="#contacts" aria-label="聯絡我們">
+                    聯絡我們
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <button class="header__exit-menu" aria-label="Close burger menu"></button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end header -->
+    <main class="main mb-section">
+      <!-- start hero -->
+      <section class="hero mb-44-40">
+        <div class="container">
+          <div class="hero__descr mb-44-15">
+            <div class="hero__icon" data-aos="fade-up">
+              <img src="/img/caplya.webp" width="128" height="24" title="Caplya decorative icon"
+                alt="Caplya decorative icon">
+            </div>
+            <h1 class="tx-64-24 fw-700 text-center mb-24-15" data-aos="fade-up">
+              天然風味， <br>
+              精心製作。
+            </h1>
+            <p class="text-center tx-main mb-44-15" data-aos="fade-up">
+              清邁本地每日新鮮製作的乳製品。<br>
+              傳統配方，符合現代品質標準。
+            </p>
+            <ul class="hero__links mb-24-15" aria-label="links" data-aos="fade-up">
+              <li>
+                <a class="but uppercase" href="#products" aria-label="查看產品">
+                  查看產品
+                </a>
+              </li>
+              <li>
+                <a class="but uppercase" href="#contacts" aria-label="在清邁找到我們">
+                  在清邁找到我們
+                </a>
+              </li>
+            </ul>
+          </div>
+          <ul class="hero__products mb-44-15" aria-label="Products" data-aos="fade-up">
+            <li>
+              <div class="hero__products-image mb-10">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="/img/hero-products-1.webp" type="image/webp">
+                  <img src="#" title="凝乳甜甜圈" alt="凝乳甜甜圈">
+                </picture>
+              </div>
+              <strong class="tx-main text-center uppercase">
+                凝乳甜甜圈
+              </strong>
+            </li>
+            <li>
+              <div class="hero__products-image mb-10">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="/img/hero-products-2.webp" type="image/webp">
+                  <img src="#" title="沙鍋" alt="沙鍋">
+                </picture>
+              </div>
+              <strong class="tx-main text-center uppercase">
+                沙鍋
+              </strong>
+            </li>
+            <li>
+              <div class="hero__products-image mb-10">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="/img/hero-products-3.webp" type="image/webp">
+                  <img src="#" title="烤砂鍋菜" alt="烤砂鍋菜">
+                </picture>
+              </div>
+              <strong class="tx-main text-center uppercase">
+                烤砂鍋菜
+              </strong>
+            </li>
+            <li>
+              <div class="hero__products-image mb-10">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="/img/hero-products-4.webp" type="image/webp">
+                  <img src="#" title="酸奶油" alt="酸奶油">
+                </picture>
+              </div>
+              <strong class="tx-main text-center uppercase">
+                酸奶油
+              </strong>
+            </li>
+            <li>
+              <div class="hero__products-image mb-10">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="/img/hero-products-5.webp" type="image/webp">
+                  <img src="#" title="鄉村起司煎餅" alt="鄉村起司煎餅">
+                </picture>
+              </div>
+              <strong class="tx-main text-center uppercase">
+                鄉村起司煎餅
+              </strong>
+            </li>
+            <li>
+              <div class="hero__products-image mb-10">
+                <picture>
+                  <source media="(min-width: 320px)" srcset="/img/hero-products-6.webp" type="image/webp">
+                  <img src="#" title="克菲爾" alt="克菲爾">
+                </picture>
+              </div>
+              <strong class="tx-main text-center uppercase">
+                克菲爾
+              </strong>
+            </li>
+          </ul>
+          <div class="hero__image" data-aos="fade-up">
+            <picture>
+              <source media="(min-width: 601px)" srcset="/img/hero.webp" type="image/webp">
+              <source media="(max-width: 600px)" srcset="/img/hero-mob.webp" type="image/webp">
+              <img src="#!" width="336" height="336" title="Natural Taste Crafted with Care" alt="Natural Taste">
+            </picture>
+          </div>
+        </div>
+      </section>
+      <!-- end hero -->
+
+      <!-- start products -->
+      <section class="products mb-section">
+        <div class="products__archer" id="products"></div>
+        <div class="container">
+          <div class="products__descr mb-66-40">
+            <h2 class="text-center mb-24-15 tx-64-24 fw-700" data-aos="fade-up">
+              凝乳基 <br> <span class="underline">早餐</span>
+            </h2>
+            <div class="products__texts" data-aos="fade-up">
+              <p class="tx-main text-center mb-10">
+                口感細膩，味道清淡，採用天然原料，是早餐或零食的理想選擇。
+              </p>
+            </div>
+          </div>
+          <ul class="products__list" aria-label="Products">
+            <li class="products__item" data-aos="fade-up">
+              <div class="products__left">
+                <div class="products__image">
+                  <picture>
+                    <source media="(min-width: 601px)" srcset="/img/curd-based-1.webp" type="image/webp">
+                    <source media="(max-width: 600px)" srcset="/img/curd-based-1-mob.webp" type="image/webp">
+                    <img src="#!" loading="lazy" width="120" height="120" title="烤砂鍋菜" alt="烤砂鍋菜">
+                  </picture>
+                </div>
+              </div>
+              <div class="products__right">
+                <h3 class="products__name tx-16-14 fw-700 uppercase">
+                  烤砂鍋菜
+                </h3>
+                <p class="tx-main fw-500">
+                  口感綿軟的夸克起司砂鍋，質地幾乎像起司蛋糕。既可作為豐盛的早餐，也可作為甜點，
+                  您可以根據自己的喜好添加各種配料——莓果、果醬、煉乳或酸奶油。
+                </p>
+              </div>
+            </li>
+            <li class="products__item" data-aos="fade-up">
+              <div class="products__left">
+                <div class="products__image">
+                  <picture>
+                    <source media="(min-width: 601px)" srcset="/img/curd-based-7.webp" type="image/webp">
+                    <source media="(max-width: 600px)" srcset="/img/curd-based-7-mob.webp" type="image/webp">
+                    <img src="#!" loading="lazy" width="120" height="120" title="鄉村起司煎餅" alt="鄉村起司煎餅">
+                  </picture>
+                </div>
+              </div>
+              <div class="products__right">
+                <h3 class="products__name tx-16-14 fw-700 uppercase">
+                  鄉村起司煎餅
+                </h3>
+                <p class="tx-main fw-500">
+                  金黃酥脆的夸克煎餅：外皮微脆，內裡柔軟綿密。令人倍感舒適的口味——
+                  搭配茶、咖啡，或作為暖心的早餐，都是絕佳選擇。
+                </p>
+              </div>
+            </li>
+            <li class="products__item" data-aos="fade-up">
+              <div class="products__left">
+                <div class="products__image">
+                  <picture>
+                    <source media="(min-width: 601px)" srcset="/img/curd-based-2.webp" type="image/webp">
+                    <source media="(max-width: 600px)" srcset="/img/curd-based-2-mob.webp" type="image/webp">
+                    <img src="#!" loading="lazy" width="120" height="120" title="凝乳甜甜圈" alt="凝乳甜甜圈">
+                  </picture>
+                </div>
+              </div>
+              <div class="products__right">
+                <h3 class="products__name tx-16-14 fw-700 uppercase">
+                  凝乳甜甜圈
+                </h3>
+                <p class="tx-main fw-500">
+                  酥脆金黃的外皮，鬆軟綿密的內裡，散發著淡淡的甜香。
+                  冷熱皆宜，是理想的休閒小點。
+                </p>
+              </div>
+            </li>
+            <li class="products__item" data-aos="fade-up">
+              <div class="products__left">
+                <div class="products__image">
+                  <picture>
+                    <source media="(min-width: 601px)" srcset="/img/curd-based-8.webp" type="image/webp">
+                    <source media="(max-width: 600px)" srcset="/img/curd-based-8-mob.webp" type="image/webp">
+                    <img src="#!" loading="lazy" width="120" height="120" title="沙鍋" alt="沙鍋">
+                  </picture>
+                </div>
+              </div>
+              <div class="products__right">
+                <h3 class="products__name tx-16-14 fw-700 uppercase">
+                  沙鍋
+                </h3>
+                <p class="tx-main fw-500">
+                  莓果燕麥夸克派－美味可口，飽足感強，營養均衡。是家庭早餐的理想之選，
+                  冷熱皆宜。
+                </p>
+              </div>
+            </li>
+            <li class="products__item" data-aos="fade-up">
+              <div class="products__left">
+                <div class="products__image">
+                  <picture>
+                    <source media="(min-width: 601px)" srcset="/img/curd-based-3.webp" type="image/webp">
+                    <source media="(max-width: 600px)" srcset="/img/curd-based-3-mob.webp" type="image/webp">
+                    <img src="#!" loading="lazy" width="120" height="120" title="克菲爾" alt="克菲爾">
+                  </picture>
+                </div>
+              </div>
+              <div class="products__right">
+                <h3 class="products__name tx-16-14 fw-700 uppercase">
+                  克菲爾
+                </h3>
+                <p class="tx-main fw-500">
+                  濃稠的克菲爾，口感順滑，略帶酸味。富含益生菌、蛋白質和鈣質—
+                  是日常營養均衡的理想選擇。可直接飲用，也可搭配格蘭諾拉麥片或烘焙。
+                </p>
+              </div>
+            </li>
+            <li class="products__item" data-aos="fade-up">
+              <div class="products__left">
+                <div class="products__image">
+                  <picture>
+                    <source media="(min-width: 601px)" srcset="/img/curd-based-9.webp" type="image/webp">
+                    <source media="(max-width: 600px)" srcset="/img/curd-based-9-mob.webp" type="image/webp">
+                    <img src="#!" loading="lazy" width="120" height="120" title="糖霜凝乳條（syrki）" alt="糖霜凝乳條（syrki）">
+                  </picture>
+                </div>
+              </div>
+              <div class="products__right">
+                <h3 class="products__name tx-16-14 fw-700 uppercase">
+                  糖霜凝乳條（syrki）
+                </h3>
+                <p class="tx-main fw-500">
+                  香草夸克迷你巧克力棒，裹以巧克力釉。保留了真正夸克的美味，口感細膩香甜——
+                  不含乳脂替代品或人工香料。非常適合上學、工作或咖啡小憩時享用。
+                </p>
+              </div>
+            </li>
+            <li class="products__item" data-aos="fade-up">
+              <div class="products__left">
+                <div class="products__image">
+                  <picture>
+                    <source media="(min-width: 601px)" srcset="/img/curd-based-4.webp" type="image/webp">
+                    <source media="(max-width: 600px)" srcset="/img/curd-based-4-mob.webp" type="image/webp">
+                    <img src="#!" loading="lazy" width="120" height="120" title="酸奶油" alt="酸奶油">
+                  </picture>
+                </div>
+              </div>
+              <div class="products__right">
+                <h3 class="products__name tx-16-14 fw-700 uppercase">
+                  酸奶油
+                </h3>
+                <p class="tx-main fw-500">
+                  農場酸奶油由農場生牛奶製成。它非常適合搭配希臘酸奶黃瓜醬（syrniki）和酸奶油麵包（zapekanka），添加到湯和醬汁中，或與水果和蜂蜜一起食用。這是一款簡單傳統的純正奶香產品。
+                </p>
+              </div>
+            </li>
+            <li class="products__item" data-aos="fade-up">
+              <div class="products__left">
+                <div class="products__image">
+                  <picture>
+                    <source media="(min-width: 601px)" srcset="/img/curd-based-10.webp" type="image/webp">
+                    <source media="(max-width: 600px)" srcset="/img/curd-based-10-mob.webp" type="image/webp">
+                    <img src="#!" loading="lazy" width="120" height="120" title="原味 syrki" alt="原味 syrki">
+                  </picture>
+                </div>
+              </div>
+              <div class="products__right">
+                <h3 class="products__name tx-16-14 fw-700 uppercase">
+                  原味 syrki
+                </h3>
+                <p class="tx-main fw-500">
+                  香草夸克起司裹上巧克力釉。保留了真正夸克起司的美味，口感細膩香甜——不含
+                  乳脂替代品或人工香料。非常適合上學、工作或咖啡休息時間享用。
+                </p>
+              </div>
+            </li>
+            <li class="products__item" data-aos="fade-up">
+              <div class="products__left">
+                <div class="products__image">
+                  <picture>
+                    <source media="(min-width: 601px)" srcset="/img/curd-based-5.webp" type="image/webp">
+                    <source media="(max-width: 600px)" srcset="/img/curd-based-5-mob.webp" type="image/webp">
+                    <img src="#!" loading="lazy" width="120" height="120" title="Sochnik" alt="Sochnik">
+                  </picture>
+                </div>
+              </div>
+              <div class="products__right">
+                <h3 class="products__name tx-16-14 fw-700 uppercase">
+                  理髮師
+                </h3>
+                <p class="tx-main fw-500">
+                  童年最愛：酥脆的酥皮包裹著多汁的夸克起司餡料。非常適合早餐或
+                  作為一份快速小吃－口感溫和，令人滿足，溫暖舒適。
+                </p>
+              </div>
+            </li>
+            <li class="products__item" data-aos="fade-up">
+              <div class="products__left">
+                <div class="products__image">
+                  <picture>
+                    <source media="(min-width: 601px)" srcset="/img/curd-based-11-mob.webp" type="image/webp">
+                    <source media="(max-width: 600px)" srcset="/img/curd-based-11-mob.webp" type="image/webp">
+                    <img src="#!" loading="lazy" width="120" height="120" title="紙杯蛋糕" alt="紙杯蛋糕">
+                  </picture>
+                </div>
+              </div>
+              <div class="products__right">
+                <h3 class="products__name tx-16-14 fw-700 uppercase">
+                  紙杯蛋糕
+                </h3>
+                <p class="tx-main fw-500">
+                  蓬鬆的夸克瑪芬——口感柔軟，略帶甜味，非常適合作為“家庭早餐”。搭配咖啡、茶或牛奶都很棒，
+                  而且因為添加了夸克，所以能保持更長時間的柔軟口感。
+                </p>
+              </div>
+            </li>
+            <li class="products__item" data-aos="fade-up">
+              <div class="products__left">
+                <div class="products__image">
+                  <picture>
+                    <source media="(min-width: 601px)" srcset="/img/curd-based-6.webp" type="image/webp">
+                    <source media="(max-width: 600px)" srcset="/img/curd-based-6-mob.webp" type="image/webp">
+                    <img src="#!" loading="lazy" width="120" height="120" title="提拉米蘇" alt="提拉米蘇">
+                  </picture>
+                </div>
+              </div>
+              <div class="products__right">
+                <h3 class="products__name tx-16-14 fw-700 uppercase">
+                  提拉米蘇
+                </h3>
+                <p class="tx-main fw-500">
+                  這款夸克甜點加入了手指餅乾、可可粉和清新的柑橘香氣。奇亞籽則賦予它「超級食物」般的健康風味——
+                  更豐富的口感、更飽足的營養和更持久的飽足感。
+                </p>
+              </div>
+            </li>
+            <li class="products__item" data-aos="fade-up">
+              <div class="products__left">
+                <div class="products__image">
+                  <picture>
+                    <source media="(min-width: 601px)" srcset="/img/curd-based-12.webp" type="image/webp">
+                    <source media="(max-width: 600px)" srcset="/img/curd-based-12-mob.webp" type="image/webp">
+                    <img src="#!" loading="lazy" width="120" height="120" title="乾酪" alt="乾酪">
+                  </picture>
+                </div>
+              </div>
+              <div class="products__right">
+                <h3 class="products__name tx-16-14 fw-700 uppercase">
+                  乾酪
+                </h3>
+                <p class="tx-main fw-500">
+                  經典夸克乳酪，奶香濃鬱，略帶酸味。不含防腐劑，僅含牛奶及乳酸菌。
+                  可直接食用，也可搭配蜂蜜、水果、香草或烘焙。
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- end products -->
+
+      <!-- start contacts -->
+      <section class="contacts mb-section">
+        <div class="contacts__archer" id="contacts"></div>
+        <div class="container mb-44-40">
+          <div class="contacts__descr mb-66-40">
+            <h2 class="text-center mb-24-15 tx-64-24 fw-700" data-aos="fade-up">
+              在清邁找到我們
+            </h2>
+            <div class="contacts__texts">
+              <p class="tx-main text-center mb-10" data-aos="fade-up">
+                本地乳製品，每日新鮮製作
+              </p>
+            </div>
+          </div>
+          <div class="contacts__content mb-44-15" data-aos="fade-up">
+            <div class="contacts__left">
+              <h3 class="mb-15 tx-16-14 fw-700 uppercase">
+                聯絡方式
+              </h3>
+              <address class="address">
+                <div class="address__item mb-10">
+                  <div class="icon" style="background-image: url('/img/icons/geo-black.webp');"></div>
+                  <p class="tx-main fw-500">
+                    Chiang Mai, Thailand, <br>
+                    Hang Dong, Ban Tawai....
+                  </p>
+                </div>
+                <div class="address__item mb-10">
+                  <div class="icon" style="background-image: url('/img/icons/phone-black.webp');"></div>
+                  <a class="tx-main fw-500 hover-color word-break" href="tel:+66XXXXXXXX">
+                    +66 X XXX XXXX
+                  </a>
+                </div>
+                <div class="address__item mb-10">
+                  <div class="icon" style="background-image: url('/img/icons/mail-black.webp');"></div>
+                  <a class="tx-main fw-500 hover-color word-break" href="mailto:hello@lanano.co.th">
+                    hello@lanano.co.th
+                  </a>
+                </div>
+              </address>
+            </div>
+            <div class="contacts__logo logo">
+              <picture>
+                <source media="(min-width: 601px)" srcset="/img/logo.webp" type="image/webp">
+                <source media="(max-width: 600px)" srcset="/img/logo-mob.webp" type="image/webp">
+                <img src="#!" loading="lazy" width="120" height="120" title="Lanano" alt="Lanano">
+              </picture>
+            </div>
+            <div class="contacts__right">
+              <h3 class="mb-15 tx-16-14 fw-700 uppercase">
+                營業時間
+              </h3>
+              <address>
+                <div class="mb-44-15">
+                  <p class="tx-main fw-500 mb-10">
+                    週一至週六： <span class="fw-700">8:00-17:00</span>
+                  </p>
+                  <p class="tx-main fw-500 mb-10">
+                    週日：休息
+                  </p>
+                </div>
+                <ul class="issocial" aria-label="Social links">
+                  <li>
+                    <a class="icon hover-opacity" target="_blank" href="#!" aria-label="Open facebook">
+                      <img src="/img/social-icons/facebook-black.webp" width="24" height="24" title="Open facebook"
+                        alt="Facebook">
+                    </a>
+                  </li>
+                  <li>
+                    <a class="icon hover-opacity" target="_blank" href="#!" aria-label="Open ume">
+                      <img src="/img/social-icons/ume-black.webp" width="24" height="24" title="Open ume" alt="Ume">
+                    </a>
+                  </li>
+                  <li>
+                    <a class="icon hover-opacity" target="_blank" href="https://t.me/lanano_th"
+                      aria-label="Open telegram">
+                      <img src="/img/social-icons/telegram-black.webp" width="24" height="24" title="Open telegram"
+                        alt="Telegram">
+                    </a>
+                  </li>
+                </ul>
+              </address>
+            </div>
+          </div>
+        </div>
+        <div class="wrapper-map" data-aos="fade-up">
+          <a class="wrapper-map__map hover-opacity" href="https://maps.app.goo.gl/7nuv294uDSa4K4s3A" target="_blank"
+            aria-label="Go to check map">
+            <picture>
+              <source media="(min-width: 601px)" srcset="/img/map.webp" type="image/webp">
+              <source media="(max-width: 600px)" srcset="/img/map-mob.webp" type="image/webp">
+              <img src="#!" loading="lazy" width="336" height="336" title="" alt="">
+            </picture>
+          </a>
+        </div>
+      </section>
+      <!-- end contacts -->
+    </main>
+    <!-- start footer -->
+    <footer class="footer bg-dark">
+      <div class="container">
+        <div class="footer__top">
+          <div class="footer__left">
+            <div class="logo logo_92 mb-24-15">
+              <picture>
+                <source media="(min-width: 601px)" srcset="/img/logo-white.webp" type="image/webp">
+                <source media="(max-width: 600px)" srcset="/img/logo-white-mob.webp" type="image/webp">
+                <img src="#!" loading="lazy" width="120" height="120" title="Lanano" alt="Lanano">
+              </picture>
+            </div>
+            <p class="tx-main color-gray mb-24-15">
+              我們自家工廠精心製作的優質乳製品。傳統配方，天然原料，
+              純正風味。
+            </p>
+            <ul class="issocial" aria-label="Social links">
+              <li>
+                <a class="icon hover-opacity" target="_blank" href="#!" aria-label="Open facebook">
+                  <img src="/img/social-icons/facebook-white.webp" width="24" height="24" title="Open facebook"
+                    alt="Facebook">
+                </a>
+              </li>
+              <li>
+                <a class="icon hover-opacity" target="_blank" href="#!" aria-label="Open ume">
+                  <img src="/img/social-icons/ume-white.webp" width="24" height="24" title="Open ume" alt="Ume">
+                </a>
+              </li>
+              <li>
+                <a class="icon hover-opacity" target="_blank" href="https://t.me/lanano_th" aria-label="Open telegram">
+                  <img src="/img/social-icons/telegram-white.webp" width="24" height="24" title="Open telegram"
+                    alt="Telegram">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__wrapper-nav">
+            <strong class="footer__title uppercase tx-16-14 fw-700 color-white mb-24-15">
+              產品
+            </strong>
+            <nav class="nav" aria-label="Navigation site">
+              <ul class="nav__list" aria-label="Navigation site list">
+                <li class="nav__item">
+                  <a class="nav__link tx-main fw-500 color-gray hover-color" href="/zh" aria-label="首頁">
+                    首頁
+                  </a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link tx-main fw-500 color-gray hover-color" href="#products" aria-label="產品">
+                    產品
+                  </a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link tx-main fw-500 color-gray hover-color" href="#contacts" aria-label="聯絡我們">
+                    聯絡我們
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__wrapper-contacts">
+            <strong class="footer__title uppercase tx-16-14 fw-700 color-white mb-24-15">
+              接觸
+            </strong>
+            <address class="address">
+              <div class="address__item mb-10">
+                <div class="icon" style="background-image: url('/img/icons/geo-white.webp');"></div>
+                <p class="tx-main color-gray fw-500">
+                  Chiang Mai, Thailand
+                </p>
+              </div>
+              <div class="address__item mb-10">
+                <div class="icon" style="background-image: url('/img/icons/phone-white.webp');"></div>
+                <a class="tx-main fw-500 color-gray hover-color word-break" href="tel:+66XXXXXXXX">
+                  +66 X XXX XXXX
+                </a>
+              </div>
+              <div class="address__item mb-10">
+                <div class="icon" style="background-image: url('/img/icons/mail-white.webp');"></div>
+                <a class="tx-main fw-500 color-gray hover-color word-break" href="mailto:hello@lanano.co.th">
+                  hello@lanano.co.th
+                </a>
+              </div>
+            </address>
+          </div>
+          <div class="lang">
+            <button class="lang__active hover-color color-gray fw-500 tx-12-10" aria-label="EN">
+              <span class="lang__active-icon lang__active-icon_24"
+                style="background-image: url('/img/icons/lang-gray.webp');"></span>
+              中國人
+            </button>
+            <ul class="lang__list" aria-label="List langs">
+              <li>
+                <a class="tx-12-10 hover-color fw-500" href="/th" aria-label="Open Thai version site">
+                  泰語
+                </a>
+              </li>
+              <li>
+                <a class="tx-12-10 hover-color fw-500" href="/" aria-label="Open Chinese version site">
+                  英語
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p class="tx-main color-gray">
+            © 2026 LANANO。版權所有。
+          </p>
+          <nav class="nav" aria-label="Navigation site">
+            <ul class="nav__list nav__list_footer" aria-label="Navigation site list">
+              <li class="nav__item">
+                <a class="nav__link tx-main color-gray hover-color" href="#!" aria-label="隱私權條款">
+                  隱私權條款
+                </a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link tx-main color-gray hover-color" href="#!" aria-label="服務條款">
+                  服務條款
+                </a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link tx-main color-gray hover-color" href="#!" aria-label="品質保證">
+                  品質保證
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+  </div>
+</body>
+
+</html>

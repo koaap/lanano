@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /wp-admin/
+Disallow: /search/
+Disallow: */?* 
+
+Sitemap: https://lanano.co.th/sitemap.xml
